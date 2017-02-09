@@ -1,0 +1,330 @@
+
+nav {
+  padding: 6px;
+  background-color: #8f8f8f;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    background-color: #d6d6d6;
+    text-align: center ;
+
+}
+
+
+nav ul li {
+    margin: 0;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    background-color: #2296F3;
+    display: inline-block;
+    list-style-type: none;
+    border-style: solid;
+    border-width: 0.25em;
+    border-radius: 25px;
+    border-color: #2296F3;
+}
+
+nav ul li a {
+    margin: 0;
+    width: 8em;
+    color: #aaa;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+    font-family: "Gill Sans MT";
+	  color: white;
+}
+
+#currentPage {
+  background-color: #555;
+}
+
+nav ul li:hover {
+    background-color: #555;
+    color: black;
+}
+
+
+#weekSlider {
+  background-color: #033076;
+  height: 3em;
+  margin: 0;
+  border-style: solid;
+  border-color: grey;
+}
+#weekSlider ul {
+      text-align: center ;
+}
+
+#weekSlider li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+#weekSlider a {
+  margin: 0;
+  width: 4em;
+  color: #aaa;
+  display: block;
+  text-decoration: none;
+  font-family: "Gill Sans MT";
+  color: white;
+}
+
+#weekSlider a:hover {
+  color: #2296F3;
+}
+
+
+#mainTitle {
+  border-style: solid;
+  border-color: grey;
+  border-top-width: 0;
+  background-color: #C9F1FD;
+  margin: 0;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  display: flex;
+  justify-content: center;
+
+}
+
+#textTitle {
+  border-style: solid;
+  border-width: thick;
+  border-color: #033076;
+  background-color: white;
+  padding-top: 0.2em;
+  text-align: center;
+  width: 3.5em;
+  font-size: 8em;
+  font-family: Candara;
+  text-decoration: underline white;
+  box-shadow: 0 0 45px black;
+}
+
+#innerTitle {
+  border-style: solid;
+  border-width: 4px;
+  margin: 0.2em 0.2em 0.2em 0.2em;
+  font-size: 0.3em;
+  font-family: Candara;
+}
+
+
+
+
+#lit_review article {
+    width: 55em;
+}
+#lit_review h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+#lit_review h2 {
+  text-decoration: underline;
+}
+
+section {
+  margin: 0;
+  padding: 1em 0 3em 0;
+  display: flex;
+  justify-content: center;
+}
+
+#mainBody {
+  background-color: #d6d6d6;
+}
+
+section article {
+  box-shadow: 0 0 30px black;
+  background-color: white;
+  padding: 3em 2em 1em 2em;
+  width: 40em;
+  font-family: Candara;
+}
+section article h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+section article h3 {
+  font-size: 2em;
+  margin: 0;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.PDFBody {
+  box-shadow: 0 0 30px black;
+  background-color: white;
+  width: 29em;
+  margin-left: 6em;
+  display: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+  nav {
+    padding: 6px;
+    background-color: #8f8f8f;
+  }
+
+  nav ul {
+      padding: 0;
+      margin: 0;
+      background-color: #d6d6d6;
+      text-align: center ;
+
+  }
+
+
+  nav ul li {
+      margin: 0;
+      margin-top: 2vw;
+      margin-bottom: 2vw;
+      background-color: #2296F3;
+      display: inline-block;
+      list-style-type: none;
+      border-style: solid;
+      border-width: 0.25em;
+      border-radius: 25px;
+      border-color: #2296F3;
+  }
+
+  nav ul li a {
+      margin: 0;
+      width: 60vw;
+      color: #aaa;
+      display: block;
+      line-height: 2em;
+      padding: 0.5em 0.5em;
+      text-decoration: none;
+      font-family: "Gill Sans MT";
+  	  color: white;
+      font-size: 4vw;
+  }
+
+  #currentPage {
+    background-color: #555;
+  }
+
+  nav ul li:hover {
+      background-color: #555;
+      color: black;
+  }
+
+
+  #weekSlider {
+    background-color: #033076;
+    height: 3em;
+    margin: 0;
+    border-style: solid;
+    border-color: grey;
+  }
+  #weekSlider ul {
+        text-align: center ;
+  }
+
+  #weekSlider li {
+    display: inline-block;
+    list-style-type: none;
+  }
+
+  #weekSlider a {
+    margin: 0;
+    width: 4em;
+    color: #aaa;
+    display: block;
+    text-decoration: none;
+    font-family: "Gill Sans MT";
+    color: white;
+  }
+
+  #weekSlider a:hover {
+    color: #2296F3;
+  }
+
+
+  #mainTitle {
+    border-style: solid;
+    border-color: grey;
+    border-top-width: 0;
+    background-color: #C9F1FD;
+    margin: 0;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  #textTitle {
+    border-style: solid;
+    border-width: thick;
+    border-color: #033076;
+    background-color: white;
+    padding-top: 0.2em;
+    text-align: center;
+    width: 3.5em;
+    font-size: 8em;
+    font-family: Candara;
+    text-decoration: underline white;
+    box-shadow: 0 0 45px black;
+  }
+
+  #innerTitle {
+    border-style: solid;
+    border-width: 4px;
+    margin: 0.2em 0.2em 0.2em 0.2em;
+    font-size: 0.3em;
+    font-family: Candara;
+  }
+
+
+
+
+  #lit_review article {
+      width: 55em;
+  }
+  #lit_review h1 {
+      text-align: center;
+      text-decoration: underline;
+  }
+  #lit_review h2 {
+    text-decoration: underline;
+  }
+
+  section {
+    margin: 0;
+    padding: 1em 0 3em 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  #mainBody {
+    background-color: #d6d6d6;
+  }
+
+  section article {
+    box-shadow: 0 0 30px black;
+    background-color: white;
+    padding: 3em 2em 1em 2em;
+    width: 40em;
+    font-family: Candara;
+  }
+  section article h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  section article h3 {
+    font-size: 2em;
+    margin: 0;
+    text-align: right;
+    text-decoration: underline;
+  }
+
+}
